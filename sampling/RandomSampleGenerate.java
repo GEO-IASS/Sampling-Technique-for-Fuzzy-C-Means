@@ -1,18 +1,18 @@
-/**
- * 
- */
 package sampling;
-import weka.core.converters.*;
 
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Collections;
-
-
+/**
+ * Used WEKA.jar package
+ * http://www.cs.waikato.ac.nz/ml/index.html
+*/
 import weka.core.*;
+import weka.core.converters.*;
+import weka.filters.unsupervised.attribute.*;
 
 import java.io.*;
-import weka.filters.unsupervised.attribute.*;
+
 /**
  * @author Dhanesh
  *
